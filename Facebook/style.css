@@ -1,0 +1,145 @@
+body, ul, li, h1, p, a, h1, h2, input, image {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header {
+    background: linear-gradient(#4C68A1, #3B5998, #3B5998);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.mid {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    margin-top: 15px;
+}
+
+.login-area {
+    width: 40%;
+    float: left;
+}
+
+.input1 input[type="text"], .input2 input[type="password"] {
+    display: block;
+    padding: 2px 3px;
+    border: 1px solid #1D2A5B;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.input1, .input2, .input3 {
+    float: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    margin-left: 13px;
+}
+
+.input1 label:nth-child(1), .input2 label:nth-child(1) {
+    color: #E4FFE2;
+}
+
+.input1 label:nth-child(3), .input2 a {
+    color: #9CB4C4;
+}
+
+.input3 input {
+    margin-top: 20px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: centre;
+    color: #FFFFF0;
+    background-color: rgb(66, 103, 178);
+    border-radius: 2px;
+    text-shadow: none;
+    border: 1px solid #2B4A80;
+}
+
+/* fb-body */
+
+.facebook-body {
+    background: linear-gradient(#FEFEFE, #D8DCEB);
+}
+
+.fb-left {
+    width: 43%;
+    float: left;
+}
+
+.fb-right {
+    margin-top: 24px;
+    width: 38%;
+    float: right;
+}
+
+.facebook-body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fb-left h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0E385F;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.fb-right h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #333339;
+}
+
+.fb-right p {
+    font-size: 19px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.reg-form::after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.reg-form input[type="text"], .reg-form [type="password"] {
+    display: block;
+    width: 95%;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 1px solid #bdc7d8;
+    ;
+}
+
+.reg-form input[type="text"]:nth-child(1) {
+    width: 42%;
+    float: left;
+}
+
+.reg-form input[type="text"]:nth-child(2) {
+    width: 46%;
+    float: right;
+    margin-left: 5px;
+}
